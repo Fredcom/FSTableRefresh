@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
         tableView.mj_header = MJCustomHeader.init(refreshingBlock: {[weak self] in
             DispatchQueue.global().asyncAfter(deadline: DispatchTime.now() + 2, execute: { 
-                self?.items.append("123")
+                self?.items.append("123+100")
                 self?.tableView.reloadData()
                 self?.tableView.mj_header.endRefreshing()
             })
