@@ -53,7 +53,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: NSStringFromClass(UITableViewCell.self))
-        cell?.textLabel?.text = "1000"
+        cell?.textLabel?.text = items[indexPath.row]
         return cell!
     }
     
