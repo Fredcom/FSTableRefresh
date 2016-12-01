@@ -1,0 +1,6 @@
+framework module Pods_FSTableRefreshTests {
+  umbrella header "Pods-FSTableRefreshTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
