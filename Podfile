@@ -8,11 +8,11 @@ target 'FSTableRefresh' do
   # Pods for FSTableRefresh
     pod 'MJRefresh'
 
-#target 'FSTableRefreshTests' do
-#    inherit! :search_paths
-#    # Pods for testing
-#  end
-#
+target 'FSTableRefreshTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
 #  target 'FSTableRefreshUITests' do
 #    inherit! :search_paths
 #    # Pods for testing
